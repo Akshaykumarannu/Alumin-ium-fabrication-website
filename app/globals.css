@@ -1,26 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-blue: #003366;
+  --primary-maroon: #800000;
+  --accent-white: #ffffff;
+  --light-gray: #f3f4f6;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary-blue: var(--primary-blue);
+  --color-primary-maroon: var(--primary-maroon);
+  --color-accent-white: var(--accent-white);
+  --color-light-gray: var(--light-gray);
+  --font-sans: 'Poppins', 'Inter', sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, var(--primary-blue), var(--primary-maroon));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-maroon) 100%);
 }
