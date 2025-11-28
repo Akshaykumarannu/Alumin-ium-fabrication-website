@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               Industrial Area, Vidhyanagar<br />
               Kasargod, Kerala, India<br />
-              Phone: <a href="tel:+918136883749" className="hover:text-white transition-colors">+91 81368 83749</a>
+              Phone: <a href="tel:+918136883749" className="hover:text-white transition-colors">+91 81368 83749</a>, <a href="tel:+918547083749" className="hover:text-white transition-colors">+91 85470 83749</a>
             </p>
           </div>
 

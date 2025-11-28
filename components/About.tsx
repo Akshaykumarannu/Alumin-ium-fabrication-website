@@ -11,7 +11,7 @@ export default function About() {
   });
 
   const stats = [
-    { number: "15+", label: "Years Experience" },
+    { number: "25+", label: "Years Experience" },
     { number: "500+", label: "Projects Completed" },
     { number: "100%", label: "Client Satisfaction" },
     { number: "24/7", label: "Support Available" },
@@ -73,7 +73,7 @@ export default function About() {
             </h2>
 
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              National Aluminium Fabrication has been at the forefront of the aluminium industry for over 15 years.
+              National Aluminium Fabrication has been at the forefront of the aluminium industry for over 25 years.
               We specialize in creating premium quality aluminium products that combine durability, functionality,
               and aesthetic appeal.
             </p>
@@ -138,6 +138,6 @@ export default function About() {
           </motion.div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

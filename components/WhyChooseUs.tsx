@@ -158,9 +158,9 @@ export default function WhyChooseUs() {
                 </a>
                 <a
                   href="tel:+918136883749"
-                  className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary-blue transition-all inline-block"
+                  className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary-blue transition-all inline-block text-center"
                 >
-                  Call: 81368 83749
+                  Call: 81368 83749 / 85470 83749
                 </a>
               </div>
             </div>

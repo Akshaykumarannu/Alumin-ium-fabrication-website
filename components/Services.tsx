@@ -17,6 +17,16 @@ const services = [
     icon: Square3Stack3DIcon,
   },
   {
+    title: 'Room Furnishing',
+    description: 'Complete room furnishing solutions including wardrobes, dressing units, and storage cabinets.',
+    icon: HomeModernIcon,
+  },
+  {
+    title: 'TV Units',
+    description: 'Modern and stylish TV units designed to enhance your living space aesthetics.',
+    icon: Square3Stack3DIcon,
+  },
+  {
     title: 'Custom Fabrication',
     description: 'Tailored aluminium solutions for wardrobes, cabinets, and structural needs.',
     icon: WrenchScrewdriverIcon,
